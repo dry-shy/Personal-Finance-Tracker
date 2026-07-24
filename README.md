@@ -168,7 +168,7 @@ JWT_SECRET=your_secret_key
 
 ### Bills
 
-![Bills](bill.png)
+![Bills](bills.png)
 
 ---
 ### Budget
