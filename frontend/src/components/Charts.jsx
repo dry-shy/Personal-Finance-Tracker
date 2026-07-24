@@ -5,14 +5,14 @@ import { Doughnut } from 'react-chartjs-2';
 ChartJS.register(ArcElement, Tooltip, Legend, CategoryScale, LinearScale, BarElement);
 
 const EmptyChart = () => (
-  <div className="empty-chart-container">
+  <div className="empty-chart-container" >
     {/* Animated ghost pie chart */}
     <div className="empty-chart-visual">
       <svg viewBox="0 0 120 120" className="ghost-donut" xmlns="http://www.w3.org/2000/svg">
         {/* Outer ring segments (ghost slices) */}
-        <circle cx="60" cy="60" r="45" fill="none" stroke="rgba(255,255,255,0.04)" strokeWidth="22" />
+        <circle cx="30" cy="30" r="25" fill="none" stroke="rgba(255,255,255,0.04)" strokeWidth="22" />
         <circle
-          cx="60" cy="60" r="45"
+          cx="30" cy="30" r="15"
           fill="none"
           stroke="rgba(123,44,191,0.25)"
           strokeWidth="22"
@@ -21,7 +21,7 @@ const EmptyChart = () => (
           strokeLinecap="round"
         />
         <circle
-          cx="60" cy="60" r="45"
+          cx="30" cy="30" r="15"
           fill="none"
           stroke="rgba(241,91,181,0.2)"
           strokeWidth="22"
@@ -30,7 +30,7 @@ const EmptyChart = () => (
           strokeLinecap="round"
         />
         <circle
-          cx="60" cy="60" r="45"
+          cx="30" cy="30" r="15"
           fill="none"
           stroke="rgba(0,245,212,0.15)"
           strokeWidth="22"
@@ -39,9 +39,9 @@ const EmptyChart = () => (
           strokeLinecap="round"
         />
         {/* Center hole */}
-        <circle cx="60" cy="60" r="24" fill="#0d0b14" />
+        <circle cx="30" cy="30" r="14" fill="#0d0b14" />
         {/* Center icon */}
-        <text x="60" y="66" textAnchor="middle" fontSize="20" fill="rgba(255,255,255,0.15)">₹</text>
+        <text x="30" y="30" textAnchor="middle" fontSize="20" fill="rgba(255,255,255,0.15)">₹</text>
       </svg>
 
       {/* Floating dots animation */}
@@ -110,8 +110,8 @@ const Charts = ({ transactions }) => {
         position: 'right',
         labels: {
           color: '#f0edf5',
-          padding: 16,
-          font: { family: 'Inter', size: 13 },
+          padding: 10,
+          font: { family: 'Inter', size: 9 },
           usePointStyle: true,
           pointStyleWidth: 10,
         }
@@ -120,7 +120,7 @@ const Charts = ({ transactions }) => {
         display: true,
         text: 'Expense Breakdown',
         color: '#9a94a8',
-        font: { size: 14, family: 'Inter', weight: '500' },
+        font: { size: 14, family: 'Inter', weight: '100' },
         padding: { bottom: 16 },
       },
       tooltip: {
