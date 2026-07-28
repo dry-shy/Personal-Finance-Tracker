@@ -191,7 +191,6 @@ JWT_SECRET=your_secret_key
 - 📊 Charts & Graphs
 - 📅 Monthly Expense Reports
 - 💹 Budget Planning
-- 📤 Export Transactions (PDF/Excel)
 - 🌙 Dark Mode
 - 🔔 Email Notifications
 - 🤖 AI-based Spending Insights
