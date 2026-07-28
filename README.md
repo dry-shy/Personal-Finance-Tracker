@@ -211,7 +211,7 @@ https://github.com/dry-shy
 
 ### LinkedIn
 
-https://www.linkedin.com/in/your-linkedin-profile/
+https://www.linkedin.com/in/diwakar-yadav-0341aa29a/
 
 ---
 
