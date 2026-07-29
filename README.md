@@ -200,7 +200,7 @@ JWT_SECRET=your_secret_key
 
 ## 👨‍💻 Author
 
-**Diwakar Yadav**
+**Diwakar**
 
 - 🎓 B.Tech - Computer Science & Engineering
 - 💻 MERN Stack Developer
