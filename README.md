@@ -70,14 +70,12 @@ Personal-Finance-Tracker
 │   ├── routes/
 │   ├── server.js
 │   └── package.json
-│
-├── screenshots/
-│   ├── login.png
-│   ├── register.png
-│   ├── dashboard.png
-│   ├── add-income.png
-│   ├── add-expense.png
-│   └── transactions.png
+├── login.png
+├── register.png
+├── dashboard.png
+├── add-income.png
+├── add-expense.png
+└── transactions.png
 │
 ├── README.md
 └── .gitignore
